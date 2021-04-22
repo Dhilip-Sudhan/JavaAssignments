@@ -9,6 +9,8 @@ public class Palindrome {
 		
 		for (int i = val1.length()-1; i>=0; i--) {
 			rev = rev + charact[i];
+		}
+			System.out.println(rev);
 			if (val1.equals(rev))
 			{
 				System.out.println("The entered string is Palindrome");
@@ -20,6 +22,4 @@ public class Palindrome {
 		}
 			
 	}
-
-}
 
